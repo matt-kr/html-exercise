@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign-Up Form</title>
+</head>
+<body>
+
+  <h1>Account Registration</h1>
+
+  <form>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label for="github">GitHub Username:</label><br>
+    <input type="text" id="github" name="github" required><br><br>
+
+    <fieldset>
+      <legend>Select your plan:</legend>
+
+      <input type="radio" id="enterprise" name="plan" value="Enterprise">
+      <label for="enterprise">Enterprise</label><br>
+
+      <input type="radio" id="pro" name="plan" value="Pro">
+      <label for="pro">Pro</label><br>
+
+      <input type="radio" id="free" name="plan" value="Free">
+      <label for="free">Free</label><br>
+    </fieldset><br>
+
+    <input type="checkbox" id="remember" name="remember">
+    <label for="remember">Remember Me</label><br><br>
+
+    <button type="submit">Sign Up</button>
+  </form>
+
+</body>
+</html>
